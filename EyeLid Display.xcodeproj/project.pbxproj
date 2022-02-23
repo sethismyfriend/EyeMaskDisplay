@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81A3098275C3DE200EBF3E7 /* VerticalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A3097275C3DE200EBF3E7 /* VerticalSlider.swift */; };
+		F81A309C275C3E5200EBF3E7 /* VerticalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81A309B275C3E5200EBF3E7 /* VerticalBar.swift */; };
+		F8E696BA274DC19000089B4F /* EyeLid_DisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696B9274DC19000089B4F /* EyeLid_DisplayApp.swift */; };
+		F8E696BC274DC19000089B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696BB274DC19000089B4F /* ContentView.swift */; };
+		F8E696BE274DC19300089B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E696BD274DC19300089B4F /* Assets.xcassets */; };
+		F8E696C1274DC19300089B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E696C0274DC19300089B4F /* Preview Assets.xcassets */; };
+		F8E696CA274DCE8600089B4F /* ConnectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696C8274DCE8600089B4F /* ConnectButtonView.swift */; };
+		F8E696CB274DCE8600089B4F /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696C9274DCE8600089B4F /* KeypadView.swift */; };
+		F8E696CD274DCEB300089B4F /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696CC274DCEB300089B4F /* CalculatorViewModel.swift */; };
+		F8E696D2274DD02200089B4F /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696D0274DD02200089B4F /* ConnectButton.swift */; };
+		F8E696D3274DD02200089B4F /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E696D1274DD02200089B4F /* CalculatorButton.swift */; };
+		F8E69712275732C900089B4F /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E69711275732C900089B4F /* BluetoothManager.swift */; };
+		F8E697172757450200089B4F /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E697132757450200089B4F /* StartingView.swift */; };
+		F8E697182757450200089B4F /* Led.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E697142757450200089B4F /* Led.swift */; };
+		F8E697192757450200089B4F /* LedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E697152757450200089B4F /* LedMatrix.swift */; };
+		F8E6971A2757450200089B4F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E697162757450200089B4F /* RoundedButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F81A3097275C3DE200EBF3E7 /* VerticalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSlider.swift; sourceTree = "<group>"; };
+		F81A309B275C3E5200EBF3E7 /* VerticalBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalBar.swift; sourceTree = "<group>"; };
+		F81A309D27714DB600EBF3E7 /* ExampleSeth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSeth.swift; sourceTree = "<group>"; };
+		F8E696B6274DC19000089B4F /* EyeLid Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EyeLid Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E696B9274DC19000089B4F /* EyeLid_DisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLid_DisplayApp.swift; sourceTree = "<group>"; };
+		F8E696BB274DC19000089B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8E696BD274DC19300089B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E696C0274DC19300089B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8E696C7274DC2EE00089B4F /* EyeLid-Display-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EyeLid-Display-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F8E696C8274DCE8600089B4F /* ConnectButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectButtonView.swift; sourceTree = "<group>"; };
+		F8E696C9274DCE8600089B4F /* KeypadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		F8E696CC274DCEB300089B4F /* CalculatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		F8E696D0274DD02200089B4F /* ConnectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		F8E696D1274DD02200089B4F /* CalculatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		F8E69711275732C900089B4F /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		F8E697132757450200089B4F /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		F8E697142757450200089B4F /* Led.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Led.swift; sourceTree = "<group>"; };
+		F8E697152757450200089B4F /* LedMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LedMatrix.swift; sourceTree = "<group>"; };
+		F8E697162757450200089B4F /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E696B3274DC19000089B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8E696AD274DC19000089B4F = {
+			isa = PBXGroup;
+			children = (
+				F8E696B8274DC19000089B4F /* EyeLid Display */,
+				F8E696B7274DC19000089B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E696B7274DC19000089B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E696B6274DC19000089B4F /* EyeLid Display.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E696B8274DC19000089B4F /* EyeLid Display */ = {
+			isa = PBXGroup;
+			children = (
+				F8E696B9274DC19000089B4F /* EyeLid_DisplayApp.swift */,
+				F8E6971B275745F900089B4F /* calculator */,
+				F8E696CE274DCFD800089B4F /* eyelid */,
+				F8E696C7274DC2EE00089B4F /* EyeLid-Display-Info.plist */,
+				F8E696BD274DC19300089B4F /* Assets.xcassets */,
+				F8E696BF274DC19300089B4F /* Preview Content */,
+			);
+			path = "EyeLid Display";
+			sourceTree = "<group>";
+		};
+		F8E696BF274DC19300089B4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8E696C0274DC19300089B4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8E696CE274DCFD800089B4F /* eyelid */ = {
+			isa = PBXGroup;
+			children = (
+				F8E697132757450200089B4F /* StartingView.swift */,
+				F8E697152757450200089B4F /* LedMatrix.swift */,
+				F8E697142757450200089B4F /* Led.swift */,
+				F8E697162757450200089B4F /* RoundedButton.swift */,
+				F8E69711275732C900089B4F /* BluetoothManager.swift */,
+				F81A3097275C3DE200EBF3E7 /* VerticalSlider.swift */,
+				F81A309B275C3E5200EBF3E7 /* VerticalBar.swift */,
+			);
+			path = eyelid;
+			sourceTree = "<group>";
+		};
+		F8E6971B275745F900089B4F /* calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F8E696D1274DD02200089B4F /* CalculatorButton.swift */,
+				F8E696D0274DD02200089B4F /* ConnectButton.swift */,
+				F8E696C9274DCE8600089B4F /* KeypadView.swift */,
+				F8E696CC274DCEB300089B4F /* CalculatorViewModel.swift */,
+				F8E696C8274DCE8600089B4F /* ConnectButtonView.swift */,
+				F8E696BB274DC19000089B4F /* ContentView.swift */,
+				F81A309D27714DB600EBF3E7 /* ExampleSeth.swift */,
+			);
+			path = calculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E696B5274DC19000089B4F /* EyeLid Display */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E696C4274DC19300089B4F /* Build configuration list for PBXNativeTarget "EyeLid Display" */;
+			buildPhases = (
+				F8E696B2274DC19000089B4F /* Sources */,
+				F8E696B3274DC19000089B4F /* Frameworks */,
+				F8E696B4274DC19000089B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EyeLid Display";
+			productName = "EyeLid Display";
+			productReference = F8E696B6274DC19000089B4F /* EyeLid Display.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E696AE274DC19000089B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F8E696B5274DC19000089B4F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = F8E696B1274DC19000089B4F /* Build configuration list for PBXProject "EyeLid Display" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8E696AD274DC19000089B4F;
+			productRefGroup = F8E696B7274DC19000089B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E696B5274DC19000089B4F /* EyeLid Display */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E696B4274DC19000089B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E696C1274DC19300089B4F /* Preview Assets.xcassets in Resources */,
+				F8E696BE274DC19300089B4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E696B2274DC19000089B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E697172757450200089B4F /* StartingView.swift in Sources */,
+				F8E697192757450200089B4F /* LedMatrix.swift in Sources */,
+				F8E696D2274DD02200089B4F /* ConnectButton.swift in Sources */,
+				F8E696D3274DD02200089B4F /* CalculatorButton.swift in Sources */,
+				F8E697182757450200089B4F /* Led.swift in Sources */,
+				F8E69712275732C900089B4F /* BluetoothManager.swift in Sources */,
+				F8E696CB274DCE8600089B4F /* KeypadView.swift in Sources */,
+				F8E6971A2757450200089B4F /* RoundedButton.swift in Sources */,
+				F8E696BC274DC19000089B4F /* ContentView.swift in Sources */,
+				F8E696BA274DC19000089B4F /* EyeLid_DisplayApp.swift in Sources */,
+				F8E696CA274DCE8600089B4F /* ConnectButtonView.swift in Sources */,
+				F81A3098275C3DE200EBF3E7 /* VerticalSlider.swift in Sources */,
+				F8E696CD274DCEB300089B4F /* CalculatorViewModel.swift in Sources */,
+				F81A309C275C3E5200EBF3E7 /* VerticalBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8E696C2274DC19300089B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8E696C3274DC19300089B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8E696C5274DC19300089B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeLid Display/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V2R4P8T9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EyeLid-Display-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SethHunter.EyeLid-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8E696C6274DC19300089B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeLid Display/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V2R4P8T9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EyeLid-Display-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SethHunter.EyeLid-Display";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E696B1274DC19000089B4F /* Build configuration list for PBXProject "EyeLid Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E696C2274DC19300089B4F /* Debug */,
+				F8E696C3274DC19300089B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E696C4274DC19300089B4F /* Build configuration list for PBXNativeTarget "EyeLid Display" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E696C5274DC19300089B4F /* Debug */,
+				F8E696C6274DC19300089B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E696AE274DC19000089B4F /* Project object */;
+}
